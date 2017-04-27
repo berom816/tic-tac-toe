@@ -1,0 +1,143 @@
+body{
+  position:relative;
+  font-family:sans-serif;
+  
+}
+
+#tTable{
+  margin:auto;
+/*   border:1px solid black; */
+  margin-top:8%;
+/*   z-index:1; */
+}
+
+td{
+  text-align:center;
+  min-width:120px;
+  height:120px;
+  color:#332CF7;
+}
+
+#pos1{
+  border-right:5px solid black;
+  border-bottom:5px solid black;
+}
+
+#pos2{
+  border-right:5px solid black;
+  border-bottom:5px solid black;
+}
+
+#pos3{
+  border-bottom:5px solid black;
+}
+
+#pos4{
+  border-right:5px solid black;
+  border-bottom:5px solid black;
+}
+
+#pos5{
+  border-right:5px solid black;
+  border-bottom:5px solid black;
+}
+
+#pos6{
+  border-bottom:5px solid black;
+}
+
+#pos7{
+  border-right:5px solid black;
+}
+
+#pos8{
+  border-right:5px solid black;
+}
+
+.ttIcon{
+  font-size:115px;
+}
+
+#gameButton{
+  display:block;
+  text-align:center;
+  font-size:18px;
+  font-weight:bold;
+  margin-top:25px;
+}
+
+#newGame,#resetGame{
+  border:3px solid gray;
+  border-radius:6px;
+  background-color:white;
+  outline:none;
+}
+
+
+#chooseXO{
+  border:3px solid gray;
+  border-radius:6px;
+  background-color:lightyellow;
+  position:absolute;
+/*   display:none; */
+  display:block;
+  top:50%;
+  left:50%;
+  width:230px;
+  transform: translate(-50%, -50%);
+/*   z-index:-1; */
+  text-align:center;
+  padding:5px;
+  
+  font-size:18px;
+  font-weight:bold;
+/*   margin:auto; */
+}
+
+#chooseTurn{
+  border:3px solid gray;
+  border-radius:6px;
+  background-color:lightyellow;
+  display:inline-block;
+  text-align:center;
+  padding:5px;
+  font-size:18px;
+  font-weight:bold;
+  width:270px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+#goFirst, #goSecond, #chooseX, #chooseO{
+  border:3px solid gray;
+  border-radius:6px;
+  background-color:white;
+  outline:none;
+  margin-top:7px;
+  margin-bottom:5px;
+  margin-left:7px;
+  margin-right:7px;
+}
+
+#goFirst:hover,#goSecond:hover, #chooseX:hover, #chooseO:hover, #newGame:hover, #resetGame:hover{
+  background-color:#3CD45F;
+}
+
+
+#gameMessage{
+  border:3px solid grey;
+  border-radius:6px;
+  background-color:lightyellow;
+  display:inline-block;
+  text-align:center;
+  padding:5px;
+  font-size:20px;
+  font-weight:bold;
+  width:290px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}

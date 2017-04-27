@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- <div class='container'> -->
+  <table id='tTable'>
+    <tr>
+      <td id='pos1'>
+        <i class='ttIcon' id='pos1i'></i>
+      </td>
+      <td id='pos2'>
+        <i class='ttIcon' id='pos2i'></i>
+      </td>
+      <td id='pos3'>
+        <i class='ttIcon' id='pos3i'></i>
+      </td>
+    </tr>
+    <tr>
+      <td id='pos4'>
+        <i class='ttIcon' id='pos4i'></i>
+      </td>
+      <td id='pos5'>
+        <i class='ttIcon' id='pos5i'></i>
+      </td>
+      <td id='pos6'>
+        <i class='ttIcon' id='pos6i'></i>
+      </td>
+    </tr>
+    <tr>
+      <td id='pos7'>
+        <i class='ttIcon' id='pos7i'></i>
+      </td>
+      <td id='pos8'>
+        <i class='ttIcon' id='pos8i'></i>
+      </td>
+      <td id='pos9'>
+        <i class='ttIcon' id='pos9i'></i>
+      </td>
+    </tr>
+  </table>
+  
+  <div id='gameButton'>
+    <button id='newGame'>New Game</button>
+    <button id='resetGame'>Reset Game</button>
+  </div>
+  <div id="chooseXO">
+    Which would you like to play as?
+    <br>
+    <button id ='chooseX'>X</button>
+    <span> OR </span>
+    <button id ='chooseO' >O</button>
+  </div>
+  
+  <div id='chooseTurn'>
+    Would you like to go first or second?
+  <br>  
+    <button id='goFirst'>First</button>
+    <span> OR </span>
+    <button id='goSecond'>Second</button>
+  </div>
+ 
+  <div id='gameMessage'></div>
+<!-- </div> -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
